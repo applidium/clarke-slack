@@ -20,7 +20,7 @@ end
 ## Events
 
 There are 3 types of events:
-* `TextMessage` (include `Clarke::TextMessage`) - TODO
+* `TextMessage` (include `Clarke::TextMessage`)
 * `TextCommand` (include `Clarke::TextMessage`) - TODO
 * `Button` (include `Clarke::Button`) - TODO
 
