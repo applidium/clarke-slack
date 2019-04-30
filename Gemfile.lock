@@ -1,0 +1,53 @@
+GIT
+  remote: https://github.com/lcrepet/clarke
+  revision: 0c6b5708b2cc7ea9dd2d0a1f8d2c04180f4d9841
+  specs:
+    clarke (0.2.1)
+
+PATH
+  remote: .
+  specs:
+    clarke-slack (0.1.0)
+      http
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    http (4.1.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.1)
+    http_parser.rb (0.6.0)
+    power_assert (1.1.4)
+    public_suffix (3.0.3)
+    rack (2.0.7)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rake (12.3.2)
+    test-unit (3.3.2)
+      power_assert
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  clarke!
+  clarke-slack!
+  rack
+  rack-test
+  rake
+  test-unit (~> 3.0, >= 3.0.0)
+
+BUNDLED WITH
+   1.16.1
