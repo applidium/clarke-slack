@@ -15,6 +15,7 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    byebug (11.0.1)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     http (4.1.1)
@@ -42,6 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   clarke!
   clarke-slack!
   rack
